@@ -3,10 +3,10 @@
 - # sonarqube
 - para utilizar o sonarqube para verificar a qualidade do codigo e coverage.
 - 1. rodar o docker compose.
-- 4. Entrar em http://localhost:9000 e colocar o user "admin" password "admin" pela primeira vez
+- 2. Entrar em http://localhost:9000 e colocar o user "admin" password "admin" pela primeira vez
 vai aparecer uma tela para alterar a senha, altere a senha para "sonar".
-- 2. gerar os tests da karma e jasmine com "npm run coverage"
-- 3. rode sonarqube com "npm run sonar"
+- 3. gerar os tests da karma e jasmine com "npm run coverage"
+- 4. rode sonarqube com "npm run sonar"
 - 5. Ir na aba de projetos e clicar em task-manager.
 
 - # TODO CRUD
