@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-task-manager-header',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./task-manager-header.component.scss']
 })
 export class TaskManagerHeaderComponent {
-
+  searchTerm = new FormControl('');
 }

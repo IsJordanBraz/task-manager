@@ -1,0 +1,66 @@
+#search-form {
+  width: 30rem;
+  button, input {
+    border: none;
+    outline: none;
+  }
+
+  > div {
+    height: 40px;
+    position: relative;
+    > input {
+      height: 40px;
+      display: block;
+      padding: 1rem;
+      padding-left: 2.8rem;
+      background-color: #F9FAFB;
+      color: #111827;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      width: 100%;
+      border-radius: 0.5rem;
+      border-width: 1px;
+      border-color: #D1D5DB;      
+    }
+    .submit-button {
+      height: 34px;
+      position: absolute;
+      right: 0.25rem;
+      bottom: 0.2rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      background-color: #1D4ED8;
+      color: #ffffff;
+      font-size: 0.875rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+    .submit-button:hover {
+      background-color: #1E40AF; 
+    }
+    .left-lupe {
+      display: flex;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      padding-left: 0.75rem;
+      align-items: center;
+      pointer-events: none;
+    }
+  }
+  .sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+    font-weight: 500;
+    color: #111827; 
+  }
+}
+

@@ -1,0 +1,10 @@
+<form id="search-form" [formGroup]="form" (ngSubmit)="searchForTerm()">
+  <label for="default-search" class="sr-only">Search</label>
+  <div>
+    <div class="left-lupe">
+      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="search" color="primary"></mat-icon>
+    </div>
+    <input type="search" id="default-search" placeholder="Search Tasks" required formControlName="searchTerm">
+    <button type="submit" class="submit-button">Search</button>
+  </div>
+</form>

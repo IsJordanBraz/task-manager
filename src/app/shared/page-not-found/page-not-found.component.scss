@@ -1,0 +1,15 @@
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  .not-found-description {
+    max-width: 290px;
+    text-align: center;
+    margin: 5px 0 10px 0;
+  }
+  .home-button {
+    border-radius: 1rem;
+    width: 6rem;
+  }
+}
